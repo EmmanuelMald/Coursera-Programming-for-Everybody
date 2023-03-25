@@ -1,0 +1,7 @@
+I do not have a lot of information here because the first part was really easy, 
+you learn how to create and use Functions, conditionals and bucles like while, for.
+You also learn how reserved words (Those that cannot be used to name a variable of function)
+You learn how to print and ask for information
+
+All that i have learned in another course, so I think it might be repetitive if I 
+wrote the codes again.
