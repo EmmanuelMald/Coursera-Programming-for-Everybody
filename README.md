@@ -1,6 +1,6 @@
 # Coursera-Programming-for-Everybody
 
-This scripts were written to get a certificate of a specialized program called "Coursera Programming for Everybody". This program is divided in 5 courses. 
+This scripts were written to get a certificate from the specialized program "Coursera Programming for Everybody". This program is divided in 5 courses. 
 
 1.- "Programming for Everybody - Getting started with Python"
 
