@@ -12,7 +12,7 @@
 
 
 persons={}
-file = open(input("Enter the name file: "),"r")
+file = open(input("Enter the name file: "),"r", encoding="utf-8")
 for line in file:
     if "From" in line: 
         words=line.split()
