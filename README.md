@@ -12,4 +12,7 @@ This scripts were written to get a certificate from the specialized program "Cou
 
 5.- "Capstone: Retrieving, Processing and Visualizing Data with Python"
 
+
+The first two courses were taken in 2020
+
 So be free to check all of them, there are notes and assignments for all the subjects seen.
