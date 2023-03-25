@@ -1,4 +1,0 @@
-Este es un nuevo documento de texto
-Nombre: Emmanuel
-Apellidos: Amador Maldonado
-Edad: 20 años
