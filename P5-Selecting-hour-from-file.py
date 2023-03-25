@@ -10,12 +10,14 @@
 dic = {}
 lst = []
 try:
-    file = open(input("Enter file name: "), "r") # se abre el archivo
-    for line in file: #lee línea por línea
-        if "From " in line: #Encuentra la línea donde tiene las horas
-            words = line.split() # Separa las palabras por espacios
-            hour = words.split(":") #Separa las horas, minutos y segundos
+    file = open(input("Enter file name: "), "r")  # se abre el archivo
+    for line in file:  # lee línea por línea
+        if "From " in line:  # Encuentra la línea donde tiene las horas
+            words = line.split()  # Separa las palabras por espacios
+            hour = words.split(":")  # Separa las horas, minutos y segundos
+            # Imprime la hora en una lista donde la primera entrada es la hora, luego min, y s después.
             print(hour)
+            # Guarda la hora en un diccionario y si encuentra más iguales, le suma uno
             dic[hour[0]] = dic.get(hour[0], 0)+1
     for k, v in dic.items():
         lst.append((k, v))
