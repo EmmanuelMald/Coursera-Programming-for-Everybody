@@ -10,7 +10,7 @@
 dic = {}
 lst = []
 try:
-    file = open(input("Enter file name: "), "r")  # se abre el archivo
+    file = open(input("Enter file name: "), "r", encoding="utf-8")  # se abre el archivo
     for line in file:  # lee línea por línea
         if "From " in line:  # Encuentra la línea donde tiene las horas
             words = line.split()  # Separa las palabras por espacios

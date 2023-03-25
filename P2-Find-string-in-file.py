@@ -30,7 +30,8 @@ except:
 #Assignment 7.2
 #Write a program that prompts for a file name, then opens
 #that file and reads through the file, and print contents of the
-#file in upper case. Use the file words.txt to produce the output below.  
+#file in upper case. Use the file words.txt to produce the output below. 
+#Open texto.txt 
 
 try:
     file=open(input("Write the file name: "),"r")
